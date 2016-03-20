@@ -85,3 +85,6 @@ ENV/
 .spyderproject
 
 .idea/
+
+#Ipython Notebook
+.ipynb_checkpoints
