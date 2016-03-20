@@ -5,6 +5,7 @@ import pygazebo
 import pygazebo.msg.joint_cmd_pb2
 import pygazebo.msg.pid_pb2
 
+
 @trollius.coroutine
 def publish_loop():
     manager = yield From(pygazebo.connect())
